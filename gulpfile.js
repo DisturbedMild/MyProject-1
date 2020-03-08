@@ -6,7 +6,7 @@ let gulp = require('gulp'),
     rename = require('gulp-rename');
 
 gulp.task('html', function() {
-  return gulp.src('app/*.html')
+  return gulp.src('app/dist/*.html')
   .pipe(browserSync.reload({stream: true}));
 })
 
@@ -14,7 +14,7 @@ gulp.task('scss', function() {
   return gulp.src('app/scss/**/*.scss')
   .pipe(sass({outputStyle: 'compressed'}))
   .pipe(rename({suffix: '.min'}))
-  .pipe(gulp.dest('app/css'))
+  .pipe(gulp.dest('app/dist/css'))
   .pipe(browserSync.reload({stream: true}));
 });
 
@@ -44,7 +44,7 @@ gulp.task('browser-sync', function() {
 
 gulp.task('watch', function() {
   gulp.watch('app/scss/**/*.scss', gulp.parallel('scss'));
-  gulp.watch('app/*.html', gulp.parallel('html'));
+  gulp.watch('app/dist/*.html', gulp.parallel('html'));
   gulp.watch('app/js/*.js', gulp.parallel('script'))
 });
 
