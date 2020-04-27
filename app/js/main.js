@@ -84,7 +84,7 @@ counterHandler()
 // }
 // sideNav()
 
-
+// sroller to top
 function scrollToTop() {
     const btn = document.querySelector('.scroll-toTop-btn');
     document.addEventListener('scroll', function (e) {
@@ -99,3 +99,5 @@ function scrollToTop() {
 }
 scrollToTop()
 
+
+//
