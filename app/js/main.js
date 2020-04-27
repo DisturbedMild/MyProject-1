@@ -1,31 +1,10 @@
-// function navAncors(item) {
-//
-// }
-// navAncors();
-//
-// const anchor = document.querySelector('')
-//
-// const list = document.querySelectorAll('.nav-menu li a');
-// console.log(list);
-//
-// const arrayList = Array.from(list);
-// arrayList.forEach( anchor => {
-//   anchor.addEventListener( 'click', e=> {
-//     console.log(e.target.textContent)
-//   } )
-// } )
-//
-// list.addEventListener( 'click', (e) => {
-//   return console.log(e.target);
-// } )
-
-
 // filter for works block
 
-const buttons = document.querySelectorAll(".works--filter-btn");
-const filteredCards = document.querySelectorAll(".works-cards__item");
 
 function wokrsFilter() {
+    const buttons = document.querySelectorAll(".works--filter-btn");
+    const filteredCards = document.querySelectorAll(".works-cards__item");
+
     buttons.forEach( btn => {
         btn.addEventListener('click', event => {
             let id = event.target.id;
@@ -97,15 +76,26 @@ function counterHandler() {
 counterHandler()
 
 // sidebar nav
-function sideNav() {
-    const sidebarNavigation = document.querySelector('.side-nav')
-    document.addEventListener('scroll', (e) => {
-      return   window.pageYOffset >= 1000 ? sidebarNavigation.style.display = 'initial' : sidebarNavigation.style.display = 'none';
+// function sideNav() {
+//     const sidebarNavigation = document.querySelector('.side-nav')
+//     document.addEventListener('scroll', (e) => {
+//       return   window.pageYOffset >= 1000 ? sidebarNavigation.style.display = 'initial' : sidebarNavigation.style.display = 'none';
+//     })
+// }
+// sideNav()
+
+
+function scrollToTop() {
+    const btn = document.querySelector('.scroll-toTop-btn');
+    document.addEventListener('scroll', function (e) {
+        window.pageYOffset > 1350 ? btn.style.display = 'block' : btn.style.display = 'none';
+    })
+    btn.addEventListener('click', function (e) {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
     })
 }
-sideNav()
-
-
-
-
+scrollToTop()
 
