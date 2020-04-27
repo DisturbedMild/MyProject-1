@@ -1,20 +1,29 @@
 @import 'variable';
 
 .about-us {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  .heading {
+    color: $grey;
+    padding-left: 30px;
+    border-left: 6px solid #e74c3c;
+    text-align: left;
+  }
   &__wrapper {
     display: flex;
   }
   &__content {
     margin-left: 60px;
   }
-  .heading {
-    color: $grey;
-    padding-left: 30px;
-    border-left: 6px solid #e74c3c;
+  &__img {
+    max-width: 500px;
+    width: 100%;
+    img {
+      max-width: 500px;
+      width: 100%;
+    }
   }
   &__text-content {
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 29px;
     color: #999999;
     p {

@@ -11,7 +11,7 @@ html {
 }
 body {
   height: 100%;
-  font-size: 14px;
+  font-size: 1rem;
   font-family: $font-open;
 }
 .container {
@@ -85,10 +85,22 @@ h2 {
   border: 2px solid $red;
   color: $red;
   font-weight: 700;
+  display: none;
+  outline: none;
+  svg {
+      width: 24px;
+      height: 24px;
+      fill: $red;
+  }
   &:hover {
     background-color: $red;
     color: #ffffff;
+    outline: none;
+    svg {
+      fill: #ffffFF;
+    }
   }
 }
+
 
 @import "page-styles";

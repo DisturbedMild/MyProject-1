@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
-<div class="side-nav">
-    <div class="side-nav__items">
-        <div class="side-nav_item"></div>
-        <div class="side-nav_item"></div>
-        <div class="side-nav_item"></div>
-    </div>
-</div>
+<!--<div class="side-nav">-->
+<!--    <div class="side-nav__items">-->
+<!--        <div class="side-nav_item"></div>-->
+<!--        <div class="side-nav_item"></div>-->
+<!--        <div class="side-nav_item"></div>-->
+<!--    </div>-->
+<!--</div>-->
 <!-- Header with nav -->
-<div class="main-window">
+<div class="main-window" name="home">
     <div class="dark-window">
         <div class="container ">
             <header class="header">
@@ -29,13 +29,13 @@
                 </a>
                 <nav class="nav-menu">
                     <ul>
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li ><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#price">Pricing</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contacts">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -127,13 +127,13 @@
     <!-- // -->
 
     <!-- text info about company -->
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="container">
             <div class="about-us__wrapper">
-                <div class="about-us__img">
+                <div class="about-us__img col-xl-5">
                     <img src="dist/img/monitor.png" alt="">
                 </div>
-                <div class="about-us__content">
+                <div class="about-us__content col-xl-7">
                     <div class="heading">
                         Our History
                     </div>
@@ -163,7 +163,7 @@
     <!-- // -->
 
     <!-- company services -->
-    <section class="our-services">
+    <section class="our-services" id="services">
         <div class="our-services__wrapper">
             <div class="our-services__wrapper-left">
                 <div class="container">
@@ -226,7 +226,7 @@
     <!-- // -->
 
     <!-- works -->
-    <section class="works">
+    <section class="works" id="portfolio">
         <div class="container">
             <h2 class="heading">RECENT WORKS</h2>
             <div class="heading-text">
@@ -301,7 +301,7 @@
     <!-- // -->
 
     <!-- Case Study   -->
-    <section class="study">
+    <section class="study" >
         <div class="container">
             <h2 class="heading">
                 Case Study
@@ -426,7 +426,7 @@
     <!-- //;   -->
 
     <!--  Pricing  -->
-    <section class="pricing">
+    <section class="pricing" id="price">
         <div class="container">
             <h2 class="heading">Our Pricing</h2>
             <div class="heading-text">A 30 days free trial for all. A brief story about how this process works, keep an
@@ -493,7 +493,7 @@
     <!--  //  -->
 
     <!--  Our team  -->
-    <section class="team">
+    <section class="team" id="team">
         <div class="container">
             <h2 class="heading team-heading">
                 Our Team
@@ -620,7 +620,7 @@
     <!-- //   -->
 
     <!--  Blog  -->
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="heading">
                 Our Blog
@@ -707,7 +707,7 @@
     <!--  //   -->
 
     <!-- Contacts   -->
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="container">
             <h2 class="heading">
                 KEEP IN TOUCH
@@ -768,7 +768,9 @@
 <!-- // -->
 
 <button class="scroll-toTop-btn">
-    Ding
+    <svg>
+        <use xlink:href="dist/img/icons.svg#arrow"></use>
+    </svg>
 </button>
 
 <footer class="footer">

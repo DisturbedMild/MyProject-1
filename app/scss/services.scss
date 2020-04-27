@@ -1,10 +1,15 @@
 @import 'variable';
 
 .our-services {
+  margin-bottom: 100px;
   .heading {
+    color: #f4f5f9;
+    font-family: $font-pro;
+    padding-right: 30px;
+    border-right: 6px solid #e74c3c;
     text-align: right;
+    margin-bottom: 30px;
   }
-  margin-bottom: 150px;
   &__wrapper {
     display: flex;
     min-height: 760px;
@@ -26,12 +31,7 @@
     background-position: center left;
     height: auto;
   }
-  .heading {
-    color: #f4f5f9;
-    font-family: $font-pro;
-    padding-right: 30px;
-    border-right: 6px solid #e74c3c;
-  }
+
   &__item {
     position: relative;
     margin-bottom: 70px;
@@ -41,8 +41,10 @@
   }
   &__item-title {
     color: #e74c3c;
-    font-size: 18px;
+    font-size: 1.4rem;
     line-height: 29px;
+    font-family: $font-pro;
+    font-weight: 600;
   }
   &__item-text {
     line-height: 29px;
