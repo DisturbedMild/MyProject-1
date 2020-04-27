@@ -1,0 +1,68 @@
+@import 'variable';
+
+.our-services {
+  .heading {
+    text-align: right;
+  }
+  margin-bottom: 150px;
+  &__wrapper {
+    display: flex;
+    min-height: 760px;
+  }
+  &__wrapper-left, &__wrapper-right {
+    width: 50%;
+  }
+  &__wrapper-left {
+    background-color: #202020;
+    color: #ffffff;
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 150px;
+  }
+  &__wrapper-right {
+    background-image: url(../img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    height: auto;
+  }
+  .heading {
+    color: #f4f5f9;
+    font-family: $font-pro;
+    padding-right: 30px;
+    border-right: 6px solid #e74c3c;
+  }
+  &__item {
+    position: relative;
+    margin-bottom: 70px;
+    max-width: 570px;
+    width: 100%;
+    margin-left: auto;
+  }
+  &__item-title {
+    color: #e74c3c;
+    font-size: 18px;
+    line-height: 29px;
+  }
+  &__item-text {
+    line-height: 29px;
+    color: #999999;
+  }
+  &__item-icon {
+    width: 71px;
+    right: -130px;
+    height: 71px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 6px solid #585858;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    line-height: 55px;
+    svg {
+      width: 35px;
+      height: 35px;
+      fill: $red;
+    }
+  }
+}
