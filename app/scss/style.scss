@@ -1,7 +1,9 @@
 @import '../../node_modules/normalize.css/normalize';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,600,700&display=swap');
-@import 'main-window';
+@import "../../node_modules/slick-carousel/slick/slick";
+@import "../../node_modules/slick-carousel/slick/slick-theme";
 @import 'variable';
+
 
 
 html {
@@ -11,19 +13,82 @@ body {
   height: 100%;
   font-size: 14px;
   font-family: $font-open;
-
 }
 .container {
   max-width: 1180px;
 }
 
 h1 {
+  margin: 0px;
   font-size: 72px;
   font-weight: 700;
   font-family: $font-open;
 }
 
+.heading {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-family: $font-pro;
+  font-weight: 700;
+  line-height: 36px;
+  color: $grey;
+  text-transform: uppercase;
+}
+.heading-text {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 50px;
+  text-align: center;
+}
 h2 {
   font-size: 36px;
   font-family: $font-pro;
+  font-weight: 700;
 }
+
+.custom-button {
+  padding: 10px 40px;
+  font-weight: 700;
+  border-radius: 4px;
+  min-height: 45px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.side-nav {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
+  display: none;
+}
+.side-nav_item {
+  height: 30px;
+  width: 2px;
+  background-color: $red;
+
+}
+.side-nav_item + .side-nav_item {
+  margin-top: 5px;
+}
+
+.scroll-toTop-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100;
+  bottom: 4rem;
+  right: 3rem;
+  border: 2px solid $red;
+  color: $red;
+  font-weight: 700;
+  &:hover {
+    background-color: $red;
+    color: #ffffff;
+  }
+}
+
+@import "page-styles";
