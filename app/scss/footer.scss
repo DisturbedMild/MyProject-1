@@ -4,7 +4,8 @@
   height: 90px;
   background-color: #202020;
   color: $dark-grey;
-  padding-top: 35px;
+  align-items: center;
+  display: flex;
   .row {
     justify-content: space-between;
   }

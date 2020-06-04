@@ -2,8 +2,10 @@
 
 .works {
   margin-bottom: 100px;
-  .row {
-    margin-left: 0px;
+  &-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   text-align: center;
   &--filter-buttons {
