@@ -1,7 +1,36 @@
-// filter for works block
+//mobile nav burger
+    function openMobileNav() {
+        const icon = document.querySelector('.nav-burger__btn')
+        const header = document.querySelector('.header')
+        const container = document.querySelector('.main-content')
+        icon.addEventListener('click', e => {
+            icon.classList.toggle('change')
+            header.classList.toggle('active')
+        })
+    }
+    openMobileNav()
 
 
-function wokrsFilter() {
+// sticky navbar
+    function stickyNav() {
+        const header = document.querySelector('.header')
+
+        document.addEventListener('scroll', e => {
+            if (window.scrollY >= 1300 || header.classList.contains('active')) {
+                header.classList.add('fixed')
+            } else {
+                header.classList.remove('fixed')
+            }
+        })
+        if(header.classList.contains('fixed')) {
+
+        }
+
+    }
+    stickyNav()
+//
+
+function worksFilter() {
     const buttons = document.querySelectorAll(".works--filter-btn");
     const filteredCards = document.querySelectorAll(".works-cards__item");
 
@@ -22,7 +51,7 @@ function wokrsFilter() {
     })
 }
 
-wokrsFilter()
+worksFilter()
 
 // Slick slider for Study Block
 $(document).ready(function(){
@@ -34,7 +63,48 @@ $(document).ready(function(){
     autoplaySpeed: 3000,
     dots:true,
     slidesToShow: 1,
-    variableWidth:true
+    variableWidth:true,
+      responsive: [
+          {
+              breakpoint: 1024,
+              settings: {
+                  infinite: true,
+                  dots: true,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  // variableWidth:false
+              }
+          },
+          {
+              breakpoint: 860,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  variableWidth:false,
+                  centerPadding: '40px',
+                  mobileFirst: true
+              }
+          },
+          {
+              breakpoint: 650,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  variableWidth:false,
+                  centerPadding: '20px',
+                  mobileFirst: true
+              }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  variableWidth:false,
+                  centerPadding: '5px',
+                  mobileFirst: true
+              }
+          }],
   });
 });
 
@@ -98,6 +168,5 @@ function scrollToTop() {
     })
 }
 scrollToTop()
-
 
 //
