@@ -4,28 +4,33 @@
   position: relative;
 }
 .main-window {
-  background-image: url(../img/main-bg.jpg);
+  position: relative;
+  background-image: url(../img/mountains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   height: 100%;
   margin-bottom: 100px;
+  padding-bottom: 200px;
+  .container {
+    z-index: 1;
+  }
 }
-.dark-window {
-  background-color: rgba(0,0,0, 0.3);
+.main-window:after {
+  content: '';
+  background-color: rgba(0,0,0,0.3);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-
 .header {
   display: flex;
   justify-content: space-between;
   height: auto;
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 150px;
   align-items: center;
   &-logo {
@@ -162,7 +167,7 @@ nav.nav-menu ul li a:hover:after {
     color: #ffffff;
   }
   .nav-menu {
-    margin-top: 150px;
+    margin-top: 75px;
   }
   ul {
     display: block;
