@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bee72b61-cc15-4840-bce5-ec3e39ffc4ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/dist/css/main-window.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/dist/css/main-window.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dist/css/page-styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/dist/css/page-styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/main-window.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main-window.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Zog7Lat3p29PPs8WsrTa7tBq91" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DM\Desktop\portfolio project#1\app\dist\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DM\Desktop\portfolio project#1\app\dist\img" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="contactus@email.com" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gulp.js.default">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="html" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>html</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bee72b61-cc15-4840-bce5-ec3e39ffc4ef" name="Default Changelist" comment="" />
+      <created>1585510692937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585510692937</updated>
+      <workItem from="1585510694485" duration="618000" />
+      <workItem from="1585511326204" duration="249000" />
+      <workItem from="1585511587779" duration="317000" />
+      <workItem from="1585552784311" duration="2106000" />
+      <workItem from="1585578368356" duration="42000" />
+      <workItem from="1585663192061" duration="481000" />
+      <workItem from="1585663907346" duration="1233000" />
+      <workItem from="1585847466697" duration="3928000" />
+      <workItem from="1585858036539" duration="3289000" />
+      <workItem from="1586159868971" duration="11402000" />
+      <workItem from="1586419745896" duration="3256000" />
+      <workItem from="1586464766091" duration="56000" />
+      <workItem from="1586520942672" duration="14256000" />
+      <workItem from="1586605196100" duration="14625000" />
+      <workItem from="1586940159316" duration="11829000" />
+      <workItem from="1586961245737" duration="4892000" />
+      <workItem from="1587479564658" duration="1805000" />
+      <workItem from="1587552954415" duration="135000" />
+      <workItem from="1587647787307" duration="8923000" />
+      <workItem from="1587669416500" duration="7464000" />
+      <workItem from="1587729855990" duration="432000" />
+      <workItem from="1587914209926" duration="30000" />
+      <workItem from="1587914260769" duration="121000" />
+      <workItem from="1587914564004" duration="508000" />
+      <workItem from="1587921911128" duration="2438000" />
+      <workItem from="1587972774688" duration="14828000" />
+      <workItem from="1588004927161" duration="508000" />
+      <workItem from="1588005437116" duration="990000" />
+      <workItem from="1588015780699" duration="5732000" />
+      <workItem from="1588023894085" duration="1444000" />
+      <workItem from="1588074523123" duration="9000" />
+      <workItem from="1590509991127" duration="133000" />
+      <workItem from="1590614742790" duration="68000" />
+      <workItem from="1591189837746" duration="16024000" />
+      <workItem from="1591268036228" duration="6230000" />
+      <workItem from="1591276216934" duration="642000" />
+      <workItem from="1591912145014" duration="599000" />
+      <workItem from="1593099722785" duration="29000" />
+      <workItem from="1595409317862" duration="288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="177" key="#Notifications" timestamp="1588021713542">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1588021713542" />
+    <state x="611" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591275912630">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="611" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587980835223" />
+    <state x="611" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591275912630" />
+    <state x="611" y="309" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586962337273" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588024774203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588024774203" />
+    <state x="1100" y="231" key="FileChooserDialogImpl" timestamp="1593099747827">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1100" y="222" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590614799417" />
+    <state x="1100" y="231" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1593099747827" />
+    <state x="866" y="112" key="SettingsEditor" timestamp="1588005357208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="866" y="112" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588005357208" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1588021688082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588021688082" />
+    <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587667912102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587667912102" />
+    <state x="619" y="113" width="833" height="854" key="find.popup" timestamp="1595409372086">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="619" y="109" width="833" height="822" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588001860263" />
+    <state x="619" y="113" width="833" height="854" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595409372086" />
+    <state x="616" y="244" width="672" height="704" key="run.anything.popup" timestamp="1591274640038">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588020623048" />
+    <state x="616" y="244" width="672" height="704" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1591274640038" />
+    <state x="616" y="235" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586963015611" />
+    <state x="623" y="234" width="672" height="705" key="search.everywhere.popup" timestamp="1591270377866">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588017144431" />
+    <state x="623" y="234" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1591270377866" />
+  </component>
+</project>
