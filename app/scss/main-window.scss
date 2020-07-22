@@ -13,6 +13,7 @@
   height: 100%;
   margin-bottom: 100px;
   padding-bottom: 200px;
+  z-index: 20;
   .container {
     z-index: 1;
   }
@@ -117,11 +118,12 @@ nav.nav-menu ul li a:hover:after {
 }
 .header.fixed {
   position: fixed;
-  z-index: 101;
+  z-index: 10000;
   background: #3a3b46;
   width: 100%;
   left: 0;
   margin-top: 0;
+  padding-top: 0;
   height: 70px;
   animation: drop 0.5s linear 1;
   @keyframes drop {
