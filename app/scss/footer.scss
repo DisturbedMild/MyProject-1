@@ -1,0 +1,27 @@
+@import 'variable';
+
+.footer {
+  height: 90px;
+  background-color: #202020;
+  color: $dark-grey;
+  align-items: center;
+  display: flex;
+  .row {
+    justify-content: space-between;
+  }
+}
+.footer-link:hover {
+  text-decoration: none;
+  svg {
+    fill: $red;
+  }
+}
+.footer-link svg {
+  width: 24px;
+  height: 24px;
+  fill: $dark-grey;
+
+}
+.footer-link + .footer-link {
+  margin-left: 20px;
+}

@@ -1,0 +1,1 @@
+.footer{height:90px;background-color:#202020;color:#999;align-items:center;display:flex}.footer .row{justify-content:space-between}.footer-link:hover{text-decoration:none}.footer-link:hover svg{fill:#e74c3c}.footer-link svg{width:24px;height:24px;fill:#999}.footer-link+.footer-link{margin-left:20px}

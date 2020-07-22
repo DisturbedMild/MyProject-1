@@ -2,83 +2,772 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="dist/css/style.min.css">
+    <meta charset="UTF-8">
+<!--    <meta content="width=1180" name="viewport" id="viewport">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/style.min.css">
 </head>
-
 <body>
-  <!-- Header with nav -->
-  <div class="main-window">
-    <div class="dark-window">
-      <div class="container ">
-        <header class="header">
-          <a href="#" class="header-logo">
-            <span>M</span>
-             Group
-          </a>
-          <nav class="nav-menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </header>
-        <div class="main-content">
-          <div class="main-content__title-text">
-            Our Clients Are Our First Priority
-          </div>
-          <h1 class="main-content__heading">
-            WELCOME TO Mountain Group
-            <div class="undreline"></div>
-          </h1>
-          <div class="main-content__content-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-          </div>
-          <div class="main-content__buttons">
-            <div class="main-content__getStart-btn">
-              GET SART NOW
+
+<!-- // -->
+
+<!-- Main content with sections inside -->
+<main>
+    <section class="main-window" name="home" id="home">
+            <div class="container ">
+                <header class="header">
+                    <div class="header-left">
+                        <a href="#" class="header-logo">
+                            <span>M</span>
+                            Group
+                        </a>
+                        <div class="nav-burger__btn">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </div>
+                    <nav class="nav-menu">
+
+                        <ul>
+                            <li ><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#price">Pricing</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contacts">Contact</a></li>
+
+                        </ul>
+                    </nav>
+                </header>
+                <div class="main-content">
+                    <div class="main-content__title-text">
+                        Our Clients Are Our First Priority
+                    </div>
+                    <h1 class="main-content__heading">
+                        WELCOME TO Mountain Group
+                        <div class="undreline"></div>
+                    </h1>
+                    <div class="main-content__content-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                        and
+                        scrambled it to make a type specimen book.
+                    </div>
+                    <div class="main-content__buttons">
+                        <div class="custom-button main-content__getStart-btn">
+                            GET START NOW
+                        </div>
+                        <div class="custom-button main-content__learnMore-btn">
+                            LEARN MORE
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="main-content__learnMore-btn">
-              LEARN MORE
+    </section>
+    <!-- who we are block -->
+    <section class="our-advantages">
+        <div class="container">
+            <div class="our-advantages__items">
+                <div class="our-advantages__item">
+                    <div class="our-advantages__item-icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#design"></use>
+                        </svg>
+                    </div>
+                    <div class="our-advantages__item-name">SLEEK DESIGN</div>
+                    <div class="our-advantages__item-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the
+                        industry.
+                    </div>
+                </div>
+                <div class="our-advantages__item">
+                    <div class="our-advantages__item-icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#clear"></use>
+                        </svg>
+                    </div>
+                    <div class="our-advantages__item-name">CLEAN CODE</div>
+                    <div class="our-advantages__item-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the
+                        industry.
+                    </div>
+                </div>
+                <div class="our-advantages__item">
+                    <div class="our-advantages__item-icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#ideas"></use>
+                        </svg>
+                    </div>
+                    <div class="our-advantages__item-name">CREATIVE IDEAS</div>
+                    <div class="our-advantages__item-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the
+                        industry.
+                    </div>
+                </div>
+                <div class="our-advantages__item">
+                    <div class="our-advantages__item-icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#headset"></use>
+                        </svg>
+                    </div>
+                    <div class="our-advantages__item-name">FREE SUPPORT</div>
+                    <div class="our-advantages__item-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the
+                        industry.
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </section>
+    <!-- // -->
+
+    <!-- text info about company -->
+    <section class="about-us" id="about">
+        <div class="container">
+            <div class="about-us__wrapper">
+                <div class="about-us__img col-xl-5">
+                    <img src="dist/img/monitor.png" alt="">
+                </div>
+                <div class="about-us__content col-xl-7">
+                    <div class="heading">
+                        Our History
+                    </div>
+                    <div class="about-us__text-content">
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum has
+                            been the
+                            industry's standard dummy text ever since the 1500s, when an unk- nown printer took a galley
+                            of type and
+                            scrambled it to make a type specimen book. </p>
+                        <p>
+                            It has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing
+                            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                            PageMaker including
+                            versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                    <button type="click" class="custom-button about-us__works-btn ">
+                        Browse Our Works
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // -->
+
+    <!-- company services -->
+    <section class="our-services" id="services">
+        <div class="our-services__wrapper">
+            <div class="our-services__wrapper-left">
+                <div class="container">
+                    <div class="heading">
+                        Our Services
+                    </div>
+                    <div class="our-services__items">
+                        <div class="our-services__item">
+                            <div class="our-services__item-title">
+                                Web Design
+                            </div>
+                            <div class="our-services__item-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum
+                                has been the
+                                industry's standard dummy text ever.
+                            </div>
+                            <div class="our-services__item-icon">
+                                <svg>
+                                    <use xlink:href="dist/img/icons.svg#lamp"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="our-services__item">
+                            <div class="our-services__item-title">
+                                Web Design
+                            </div>
+                            <div class="our-services__item-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum
+                                has been the
+                                industry's standard dummy text ever.
+                            </div>
+                            <div class="our-services__item-icon">
+                                <svg>
+                                    <use xlink:href="dist/img/icons.svg#settings"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="our-services__item">
+                            <div class="our-services__item-title">
+                                Web Design
+                            </div>
+                            <div class="our-services__item-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum
+                                has been the
+                                industry's standard dummy text ever.
+                            </div>
+                            <div class="our-services__item-icon">
+                                <svg>
+                                    <use xlink:href="dist/img/icons.svg#design"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-services__wrapper-right">
+            </div>
+        </div>
+    </section>
+    <!-- // -->
+
+    <!-- works -->
+    <section class="works" id="portfolio">
+        <div class="container">
+            <h2 class="heading">RECENT WORKS</h2>
+            <div class="heading-text">
+                It has survived not only five centuries, but also the leap scrambled it to make a type.
+            </div>
+            <div class="works-wrapper">
+                <div class="works--filter-buttons">
+                    <button class="works--filter-btn" id="all">All</button>
+                    <button class="works--filter-btn" id="design">Print Design</button>
+                    <button class="works--filter-btn" id="animation">Animation</button>
+                    <button class="works--filter-btn" id="art">Art</button>
+                    <button class="works--filter-btn" id="web">Web Design</button>
+                    <button class="works--filter-btn" id="photo">Photography</button>
+                    <button class="works--filter-btn" id="video">Video</button>
+                </div>
+                <div class="works-cards">
+
+                        <div class="works-cards__item" data-type="design">
+                            <div class="works-cards__item-content">
+                                <div class="works-cards__item-title">food site</div>
+                                <span>web / food</span>
+                            </div>
+                            <img src="./dist/img/works/1.jpg" alt=""></div>
+                        <div class="works-cards__item" data-type="animation">
+                            <div class="works-cards__item-content">
+                                <div class="works-cards__item-title">t-shirt design</div>
+                                <span>art / t-shirt</span>
+                            </div>
+                            <img src="./dist/img/works/2.jpg" alt=""></div>
+                        <div class="works-cards__item" data-type="art">
+                            <div class="works-cards__item-content">
+                                <div class="works-cards__item-title">blog design</div>
+                                <span>art / web / blog</span>
+                            </div>
+                            <img src="./dist/img/works/3.jpg" alt=""></div>
+                        <div class="works-cards__item" data-type="web">
+                            <div class="works-cards__item-content">
+                                <div class="works-cards__item-title">web marketplace</div>
+                                <span>web / video / marketplace</span>
+                            </div>
+                            <img src="./dist/img/works/4.jpg" alt=""></div>
+                        <div class="works-cards__item" data-type="photo">
+                            <div class="works-cards__item-content">
+                                <div class="works-cards__item-title">transport video</div>
+                                <span>video / photo / transport</span>
+                            </div>
+                            <img src="./dist/img/works/5.jpg" alt=""></div>
+                        <div class="works-cards__item" data-type="video">
+                            <div class="works-cards__item-content">
+                                <div class="works-cards__item-title">Web photo-animations</div>
+                                <span>web / photo/ animations</span>
+                            </div>
+                            <img src="./dist/img/works/6.jpg " alt=""></div>
+                        <div class="works-cards__item" data-type="video">
+                            <div class="works-cards__item-content">
+                                <div class="works-cards__item-title">laptop desing</div>
+                                <span>design / laptop</span>
+                            </div>
+                            <img src="./dist/img/works/7.jpg" alt=""></div>
+                        <div class="works-cards__item" data-type="web">
+                            <div class="works-cards__item-content">
+                                <div class="works-cards__item-title">job searching</div>
+                                <span>web / job searching</span>
+                            </div>
+                            <img src="./dist/img/works/8.jpg" alt="">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // -->
+
+    <!-- Case Study   -->
+    <section class="study" >
+        <div class="container">
+            <h2 class="heading">
+                Case Study
+            </h2>
+            <div class="heading-text">
+                A brief story about how this process works, keep an eye till the end.
+            </div>
+            <div class="study-wrapper">
+                <div class="study-content">
+                    <div class="study-slider">
+                        <div class="study-item">
+                            <div class="study-item__icon">
+                                <svg>
+                                    <use xlink:href="dist/img/icons.svg#heart"></use>
+                                </svg>
+                            </div>
+                            <div class="study-item__title">accumulate creative ideas</div>
+                            <div class="study-item__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of
+                                the printing and typesetting let. Lorem Ipsum has been the industry Printing and
+                                typelorem Ipsum has been the setting let.
+                            </div>
+                            <div class="custom-button study-item__btn">Read more</div>
+                        </div>
+                        <div class="study-item">
+                            <div class="study-item__icon">
+                                <svg>
+                                    <use xlink:href="dist/img/icons.svg#heart"></use>
+                                </svg>
+                            </div>
+                            <div class="study-item__title">accumulate creative ideas</div>
+                            <div class="study-item__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of
+                                the printing and typesetting let. Lorem Ipsum has been the industry Printing and
+                                typelorem Ipsum has been the setting let.
+                            </div>
+                            <div class="custom-button study-item__btn">Read More</div>
+                        </div>
+                        <div class="study-item">
+                            <div class="study-item__icon">
+                                <svg>
+                                    <use xlink:href="dist/img/icons.svg#heart"></use>
+                                </svg>
+                            </div>
+                            <div class="study-item__title">accumulate creative ideas</div>
+                            <div class="study-item__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of
+                                the printing and typesetting let. Lorem Ipsum has been the industry Printing and
+                                typelorem Ipsum has been the setting let.
+                            </div>
+                            <div class="custom-button study-item__btn">Read More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //   -->
+
+    <!-- Stats   -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-items">
+                <div class="stats-item">
+                    <div class="stats-item__icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#heart"></use>
+                        </svg>
+                    </div>
+                    <div class="stats-item__content">
+                        <div class="stats-item__counter" id="counter1"></div>
+                        <div class="stats-item__name">User Favourive</div>
+                    </div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-item__icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#heart"></use>
+                        </svg>
+                    </div>
+                    <div class="stats-item__content">
+                        <div class="stats-item__counter" id="counter2"></div>
+                        <div class="stats-item__name">User Favourive</div>
+                    </div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-item__icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#heart"></use>
+                        </svg>
+                    </div>
+                    <div class="stats-item__content">
+                        <div class="stats-item__counter" id="counter3"></div>
+                        <div class="stats-item__name">User Favourive</div>
+                    </div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-item__icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#heart"></use>
+                        </svg>
+                    </div>
+                    <div class="stats-item__content">
+                        <div class="stats-item__counter" id="counter4"></div>
+                        <div class="stats-item__name">User Favourive</div>
+                    </div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-item__icon">
+                        <svg>
+                            <use xlink:href="dist/img/icons.svg#heart"></use>
+                        </svg>
+                    </div>
+                    <div class="stats-item__content">
+                        <div class="stats-item__counter" id="counter5"></div>
+                        <div class="stats-item__name">User Favourive</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //;   -->
+
+    <!--  Pricing  -->
+    <section class="pricing" id="price">
+        <div class="container">
+            <h2 class="heading">Our Pricing</h2>
+            <div class="heading-text">A 30 days free trial for all. A brief story about how this process works, keep an
+                eye till the end.
+            </div>
+            <div class="row pricing-cards__wrapper">
+                <div class="col-8 col-md-4 col-xl-4 pricing-card__item">
+                    <div class="pricing-card__item-top-side">
+                        <div class="pricing-card__item-title">Starter</div>
+                        <div class="pricing-card__item-price">
+                            <span class="item-price">$19</span>
+                            <span>per month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-card__item-info">
+                        <p>Competition Analysts Methods</p>
+                        <p>All Ranked URLs</p>
+                        <p>International Support System</p>
+                        <p>Social Media Tracking</p>
+                        <div class="custom-button pricing-card__item-btn">
+                            Choose Plan
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-4 col-xl-4 pricing-card__item">
+                    <div class="pricing-card__item-top-side">
+                        <div class="pricing-card__item-title">Premium</div>
+                        <div class="pricing-card__item-price">
+                            <span class="item-price">$39</span>
+                            <span>per month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-card__item-info">
+                        <p>Competition Analysts Methods</p>
+                        <p>All Ranked URLs</p>
+                        <p>International Support System</p>
+                        <p>Social Media Tracking</p>
+                        <div class="custom-button pricing-card__item-btn">
+                            Choose Plan
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-4 col-xl-4 pricing-card__item">
+                    <div class="pricing-card__item-top-side">
+                        <div class="pricing-card__item-title">Business</div>
+                        <div class="pricing-card__item-price">
+                            <span class="item-price">$99</span>
+                            <span>per month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-card__item-info">
+                        <p>Competition Analysts Methods</p>
+                        <p>All Ranked URLs</p>
+                        <p>International Support System</p>
+                        <p>Social Media Tracking</p>
+                        <div class="custom-button pricing-card__item-btn">
+                            Choose Plan
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  //  -->
+
+    <!--  Integrations  -->
+    <section class="clients">
+        <div class="container">
+            <h2 class="heading">
+                Great Integrations with Others
+            </h2>
+            <div class="heading-text">
+                Suspendisse sed eros mollis, tincidunt felis eget, interdum erat.
+                <br>
+                Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec.
+            </div>
+            <div class="clients-wrapper">
+                <div class="col-6 col-xl-3 col-md-4 clients-item">
+                    <svg class="svg-icon">
+                        <use xlink:href="dist/img/icons.svg#discord"></use>
+                    </svg>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 clients-item">
+                    <svg class="svg-icon">
+                        <use xlink:href="dist/img/icons.svg#discord"></use>
+                    </svg>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 clients-item">
+                    <svg class="svg-icon">
+                        <use xlink:href="dist/img/icons.svg#discord"></use>
+                    </svg>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 clients-item">
+                    <svg class="svg-icon">
+                        <use xlink:href="dist/img/icons.svg#discord"></use>
+                    </svg>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 clients-item">
+                    <svg class="svg-icon">
+                        <use xlink:href="dist/img/icons.svg#discord"></use>
+                    </svg>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 clients-item">
+                    <svg class="svg-icon">
+                        <use xlink:href="dist/img/icons.svg#discord"></use>
+                    </svg>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 clients-item">
+                    <svg class="svg-icon">
+                        <use xlink:href="dist/img/icons.svg#discord"></use>
+                    </svg>
+                </div>
+                <div class="col-6 col-xl-3 col-md-4 clients-item">
+                    <svg class="svg-icon">
+                        <use xlink:href="dist/img/icons.svg#discord"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //   -->
+
+    <!--  Blog  -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="heading">
+                Our Blog
+            </div>
+            <div class="heading-text">
+                Suspendisse sed eros mollis, tincidunt felis eget, interdum eratullam sit amet odio.
+            </div>
+            <div class="blog-wrapper">
+                <div class="blog-item--left">
+                    <div class="blog-item__content">
+                        <div class="blog-item__content-title">
+                            T-SHIRT DESIGN
+                        </div>
+                        <div class="blog-item__content-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a
+                            galley of type a scrambled it to make a type specimen book.
+                        </div>
+                        <a href="#" class="blog-item__content-btn">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="blog-item__img">
+                        <img src="./dist/img/blog-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="blog-item--right">
+                    <div class="blog-item__img">
+                        <img src="./dist/img/blog-img1.jpg" alt="">
+                    </div>
+                    <div class="blog-item__content">
+                        <div class="blog-item__content-title">
+                            T-SHIRT DESIGN
+                        </div>
+                        <div class="blog-item__content-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a
+                            galley of type a scrambled it to make a type specimen book.
+                        </div>
+                        <a href="#" class="blog-item__content-btn">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-item--left">
+                    <div class="blog-item__content">
+                        <div class="blog-item__content-title">
+                            T-SHIRT DESIGN
+                        </div>
+                        <div class="blog-item__content-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a
+                            galley of type a scrambled it to make a type specimen book.
+                        </div>
+                        <a href="#" class="blog-item__content-btn">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="blog-item__img">
+                        <img src="./dist/img/blog-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="blog-item--right">
+                    <div class="blog-item__img">
+                        <img src="./dist/img/blog-img1.jpg" alt="">
+                    </div>
+                    <div class="blog-item__content">
+                        <div class="blog-item__content-title">
+                            T-SHIRT DESIGN
+                        </div>
+                        <div class="blog-item__content-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a
+                            galley of type a scrambled it to make a type specimen book.
+                        </div>
+                        <a href="#" class="blog-item__content-btn">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  //   -->
+
+    <!-- Contacts   -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="heading">
+                KEEP IN TOUCH
+            </h2>
+            <div class="heading-text">
+                Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec.
+            </div>
+            <div class="row contacts-wrapper">
+                <div class="contacts-info__items col-xl-4">
+                    <div class="contacts-info__item">
+                        <div class="contacts-info__item-title">
+                            Our Address
+                        </div>
+                        <div class="contacts-info__item-text">
+                            House #13, Stеreat road, Sydney
+                            <br>
+                            2310 Australia
+                        </div>
+                    </div>
+                    <div class="contacts-info__item">
+                        <div class="contacts-info__item-title">
+                            Call Us
+                        </div>
+                        <div class="contacts-info__item-text">
+                            <a href="tel:+8801681091425">+ 880 168 109 1425</a>
+                            <br>
+                            <a href="tel:+123456789123">+ 123 456 789 123</a>
+                        </div>
+                    </div>
+                    <div class="contacts-info__item">
+                        <div class="contacts-info__item-title">
+                            Email Us
+                        </div>
+                        <div class="contacts-info__item-text">
+                            <a href="mailto:contactus@email.com">contactus@email.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-mail col-xl-7">
+                    <form class="contacts-mail__form " id="contacts-form">
+                        <input type="text" class="contacts-mail__form-input" required minlength="2" maxlength="20"
+                               placeholder="Name">
+                        <input type="email" class="contacts-mail__form-input" required placeholder="Email">
+                        <input type="text" class="contacts-mail__form-input" required maxlength="40"
+                               placeholder="Subject">
+                        <textarea class="contacts-mail__form-textarea" name="contacts-textarea" id="contacts-textarea"
+                                  cols="30" rows="10" minlength="10" maxlength="300" required
+                                  placeholder="Message"></textarea>
+                    </form>
+                    <button class="custom-button contacts-mail__btn" type="submit" form="contacts-form">Send Message
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //   -->
+</main>
+<!-- // -->
+
+<button class="scroll-toTop-btn">
+    <svg>
+        <use xlink:href="dist/img/icons.svg#arrow"></use>
+    </svg>
+</button>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-links">
+                <a href="#" class="footer-link">
+                    <svg>
+                        <use xlink:href="dist/img/icons.svg#facebook"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-link">
+                    <svg>
+                        <use xlink:href="dist/img/icons.svg#twitter"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-link">
+                    <svg>
+                        <use xlink:href="dist/img/icons.svg#linkedIn"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-link">
+                    <svg>
+                        <use xlink:href="dist/img/icons.svg#google-plus"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-link">
+                    <svg>
+                        <use xlink:href="dist/img/icons.svg#skype"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-link">
+                    <svg>
+                        <use xlink:href="dist/img/icons.svg#vimeo"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-link">
+                    <svg>
+                        <use xlink:href="dist/img/icons.svg#tumbler"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                @ All Rights Reserved
+            </div>
+        </div>
     </div>
-  </div>
-  <!-- Main content with sections incide -->
-  <main>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis iure nihil non recusandae expedita ipsa facere odit consequatur eos voluptate autem, cupiditate quas? Consectetur ducimus ea quia ab excepturi molestias ad velit tempore provident nesciunt repudiandae non, officia esse fugit dolores sequi nulla sit cupiditate molestiae sint architecto iusto. At commodi, aperiam amet rem ullam quibusdam libero mollitia aut nisi deleniti temporibus qui quae tempora accusantium aspernatur consequuntur quia. Expedita possimus veritatis, incidunt magni temporibus deserunt quod ipsam voluptatibus minima odio nihil reprehenderit blanditiis. Tempora velit aspernatur ipsam nulla aliquid! Accusantium cumque commodi incidunt dolore, quasi enim similique placeat saepe doloremque sequi culpa iusto repudiandae cupiditate iste aliquam error explicabo ratione asperiores quis reiciendis, fugiat nulla porro? Suscipit perspiciatis unde laborum tempore! Nihil quos voluptatum neque rerum voluptatem, est molestiae modi, quo consectetur optio exercitationem minima sapiente quibusdam. Unde odio pariatur, libero error totam, modi, velit molestiae quos veniam tenetur recusandae eos! Enim quam optio neque ea molestiae soluta ex? At, ea? Illo hic sed totam aliquid, maiores expedita impedit distinctio accusamus perspiciatis. Assumenda, similique? Ea, asperiores perspiciatis. Atque mollitia ut expedita eaque! Nobis cumque eaque iste ratione illum sint ea placeat inventore eligendi? Consequuntur, dolores laborum alias soluta quisquam nesciunt placeat reprehenderit quidem perferendis quas consectetur voluptatum, eveniet dicta maxime commodi odio accusantium animi obcaecati quaerat facilis sint unde, officia culpa architecto? Quam quod deleniti assumenda quis necessitatibus ad! Earum delectus architecto repellendus voluptas facere harum fuga, nesciunt expedita qui explicabo inventore ipsam dignissimos at autem dolor, dicta sunt.
-  </main>
+</footer>
 
-  <div class="container">
-    <footer>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.slim.js"
+        integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+        crossorigin="anonymous">
+</script>
 
-    </footer>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="js/libs.min.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/libs.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous">
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous">
+</script>
+
+<script src="js/main.js"></script>
 </body>
 
 </html>

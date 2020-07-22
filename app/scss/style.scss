@@ -1,29 +1,132 @@
 @import '../../node_modules/normalize.css/normalize';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,600,700&display=swap');
-@import 'main-window';
+@import "../../node_modules/slick-carousel/slick/slick";
+@import "../../node_modules/slick-carousel/slick/slick-theme";
 @import 'variable';
+
 
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 body {
+  width: 100%;
   height: 100%;
-  font-size: 14px;
+  font-size: 1rem;
   font-family: $font-open;
-
 }
 .container {
   max-width: 1180px;
 }
 
 h1 {
+  margin: 0px;
   font-size: 72px;
   font-weight: 700;
   font-family: $font-open;
 }
 
+.heading {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-family: $font-pro;
+  font-weight: 700;
+  line-height: 36px;
+  color: $grey;
+  text-transform: uppercase;
+}
+.heading-text {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 50px;
+  text-align: center;
+}
 h2 {
   font-size: 36px;
   font-family: $font-pro;
+  font-weight: 700;
 }
+
+.custom-button {
+  padding: 10px 40px;
+  font-weight: 700;
+  border-radius: 4px;
+  min-height: 45px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.side-nav {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
+  display: none;
+}
+.side-nav_item {
+  height: 30px;
+  width: 2px;
+  background-color: $red;
+
+}
+.side-nav_item + .side-nav_item {
+  margin-top: 5px;
+}
+
+.scroll-toTop-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100;
+  bottom: 50px;
+  right: 20px;
+  border: 2px solid $red;
+  color: $red;
+  font-weight: 700;
+  display: none;
+  outline: none;
+  svg {
+      width: 24px;
+      height: 24px;
+      fill: $red;
+  }
+  &:hover {
+    background-color: $red;
+    color: #ffffff;
+    outline: none;
+    svg {
+      fill: #ffffFF;
+    }
+  }
+}
+.nav-burger__btn {
+  display: none;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@import "page-styles";
+@import "mobile";
